@@ -24,7 +24,7 @@ jobs:
           node-version: "10.x"
 
       - name: Build project
-        run: yarn && yarn build
+        run: yarn && yarn build && ls && pwd
 
       
       - name: Upload to oss
@@ -34,5 +34,5 @@ jobs:
           key-secret: ${{ secrets.OSS_KEY_SECRET }}
           region: ${{ secrets.OSS_REGION }}
           bucket: ${{ secrets.OSS_BUCKET }}
-          asset-path: ./docs/.vuepress/dist
+          asset-path: docs/.vuepress/dist
           target-path: /
