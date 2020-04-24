@@ -36,29 +36,17 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-<<<<<<< HEAD
         "text": "Home",
-=======
-        "text": "首页",
->>>>>>> 161e3283141d1547bb4034fc166502ee27761f50
         "link": "/",
         "icon": "reco-home"
       },
       {
-<<<<<<< HEAD
         "text": "Timeline",
-=======
-        "text": "时间线",
->>>>>>> 161e3283141d1547bb4034fc166502ee27761f50
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-<<<<<<< HEAD
         "text": "Contact",
-=======
-        "text": "联系我",
->>>>>>> 161e3283141d1547bb4034fc166502ee27761f50
         "icon": "reco-message",
         "items": [
           {
