@@ -2,6 +2,11 @@ module.exports = {
   "title": "fxf111的博客与人生",
   "description": "fxf111的博客,人生,程序生活",
   "dest": "public",
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   "head": [
     [
       "link",
@@ -28,25 +33,28 @@ module.exports = {
         options: {
           appId: 'LudJ1hmEmtv1eGmHMmh1EzI7-gzGzoHsz',// your appId
           appKey: '32QHEdxkHzX2jn741CpXvELl', // your appKey
+          pageSize: 10,
+          placeholder: '如果您有什么想说的，可以在这里评论，并发送邮件至fxf12345@139.com通知博主'
         }
       }
     ],
     '@vuepress-reco/extract-code'
   ],
   "themeConfig": {
+    "huawei": true,
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "Timeline",
+        "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Contact",
+        "text": "联系我",
         "icon": "reco-message",
         "items": [
           {
@@ -61,11 +69,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "分类"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     "friendLink": [
@@ -74,6 +82,11 @@ module.exports = {
         "desc": "Enjoy when you can, and endure when you must.",
         "email": "1156743527@qq.com",
         "link": "https://www.recoluan.com"
+      },
+      {
+        "title": "Pixi.js中文教程",
+        "desc": "Pixi.js中文教程",
+        "link": "https://pixijs.huashengweilai.com"
       },
       {
         "title": "vuepress-theme-reco",
