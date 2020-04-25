@@ -53,6 +53,11 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
+      // {
+      //   "text": "资源",
+      //   "link": "/",
+      //   "icon": "reco-other"
+      // },
       {
         "text": "联系我",
         "icon": "reco-message",
